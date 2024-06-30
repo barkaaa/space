@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group inline-flex items-center">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>创新者</span>
     </span>
   )
 }
@@ -80,10 +80,11 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 Bark，
+          我热爱探索技术的前沿，致力于创造优雅而高效的解决方案。
+          我的工作不仅注重功能性，更追求极致的用户体验，确保每一个像素和每一行代码都精益求精。
+          我相信通过创新和不断学习，可以不断提升自己和所开发产品的质量。我喜欢解决复杂的问题，享受从无到有的创造过程。
+          无论是编写代码，设计界面，还是优化用户体验，我都充满热情并全力以赴。
         </Balancer>
       </motion.p>
       <motion.div
@@ -98,34 +99,16 @@ export function Headline() {
           delay: 0.25,
         }}
       >
-        <SocialLink
-          href="https://cali.so/twitter"
-          aria-label="我的推特"
-          platform="twitter"
-        />
-        <SocialLink
-          href="https://cali.so/youtube"
-          aria-label="我的 YouTube"
-          platform="youtube"
-        />
-        <SocialLink
-          href="https://cali.so/bilibili"
-          aria-label="我的 Bilibili"
-          platform="bilibili"
-        />
+
         <SocialLink
           href="https://cali.so/github"
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
-          href="https://cali.so/tg"
-          aria-label="我的 Telegram"
-          platform="telegram"
-        />
+
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:liuboyang1531621783@gmail.com"
           aria-label="我的邮箱"
           platform="mail"
         />
